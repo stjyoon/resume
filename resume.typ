@@ -28,6 +28,12 @@
   )[]
 ]
 
+#custom-title("Certifications")[
+  #skills()[  
+    - AWS Solutions Architect Associate
+    - AWS Certified Cloud Practitioner
+  ]
+]
 #custom-title("Experience")[  
   #work-heading(
     "Network Infrastructure Services Intern",

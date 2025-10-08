@@ -83,7 +83,7 @@
 
 #custom-title("Skills")[
   #skills()[
-    - *Languages:* Python, Java, Kotlin, Bash, Powershell, Rust, C, C++, JavaScript
+    - *Languages:* Python, Java, Kotlin, Bash, Powershell, Rust, C, JavaScript
     - *Tools:* Bitsight, TruOps, SailPoint, ServiceNow, Serenity BDD, Selenium, Jenkins, Gradle, Eclipse, AWS, GCP, Torch, BERT, Docker, Artifactory, Ghidra
     - *OS Experience:* Linux (Arch install, kernel mods, display protocols, VMs), Windows (Enterprise setup, RDP, VM, scripting), macOS (Homebrew, VM, Bash)
   ]

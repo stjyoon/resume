@@ -77,7 +77,7 @@
 
 #custom-title("Projects")[
   #skills()[
-     Neetcode 150 | Tryhackme | OS Cross Compatibility for Windows App | Strength Training Progression Tracker | VPS for Remote Home Network Access | DLL Compilation for Game Mods | DotNet Executable Compilation | Various Automation Scripts | Packet Capture/Editing | Reverse Engineering Windows Executable | Custom Wiring Pickup Configuration in Guitar | Physical EMMC Write Protection Disabling for Custom Bootloader install
+  OS Cross Compatibility for Windows App | Strength Training Progression Tracker | VPS for Remote Home Network Access | DLL Compilation for Game Mods | DotNet Executable Compilation | Various Automation Scripts | Packet Capture/Editing | Reverse Engineering Windows Executable | Custom Wiring Pickup Configuration in Guitar | Physical EMMC Write Protection Disabling for Custom Bootloader install
    ]
 ]
 

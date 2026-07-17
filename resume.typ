@@ -1,4 +1,4 @@
-#import "@preview/simple-technical-resume:0.1.0": *
+#import "@preview/simple-technical-resume:0.1.1": *
 
 #let name = "Stanley Yoon"
 #let phone = "571-251-8499"
@@ -14,71 +14,88 @@
 )
 #custom-title("Education")[
   #education-heading(
-    "George Mason University", "Fairfax, VA",
-    "Bachelor of Science", "Information Technology, Cybersecurity concentration",
+    "George Mason University",
+    "Fairfax, VA",
+    "Bachelor of Science",
+    "Information Technology - Cybersecurity concentration",
     datetime(year: 2023, month: 1, day: 25),
-    datetime(year: 2026, month: 12,  day: 15)
-  )[]
+    datetime(year: 2027, month: 5, day: 15),
+    "",
+  )
   #education-heading(
-    "George Mason University", "Fairfax, VA",
-    "Bachelor of Science", "Neuroscience",
+    "George Mason University",
+    "Fairfax, VA",
+    "Bachelor of Science",
+    "Neuroscience",
     datetime(year: 2015, month: 8, day: 25),
-    datetime(year: 2019, month: 5,  day: 15)
-
-  )[]
+    datetime(year: 2019, month: 5, day: 15),
+    "",
+  )
 ]
 
 #custom-title("Certifications")[
-  #skills()[  
+  #skills()[
     - AWS Solutions Architect Associate
     - AWS Certified Cloud Practitioner
   ]
 ]
-#custom-title("Experience")[  
+#custom-title("Experience")[
+  #work-heading(
+    "Network Engineering Intern",
+    "Verisign",
+    "Reston, VA",
+    datetime(year: 2026, month: 5, day: 1),
+    datetime(year: 2026, month: 8, day: 1),
+  )[
+    - Audited CIS Benchmark compliance for device groups
+      - Cisco, Juniper, Palo Alto, F5, Fortinet, Checkpoint
+      - Used OpenText Network Automation to create policies for audits
+    - Generated reports through OTNA to communicate compliance status via automated email updates
+  ]
+
   #work-heading(
     "Network Infrastructure Services Intern",
     "Verisign",
     "Reston, VA",
-    datetime(year:2025, month:5, day:1),
-    datetime(year:2025, month:8, day:1),
+    datetime(year: 2025, month: 5, day: 1),
+    datetime(year: 2025, month: 8, day: 1),
   )[
-    - Built Docker container for ansible/shell code validation  
-    - Developed Jenkins pipelines for Ansible-based tools, integrated reporting to Webex  
+    - Built Docker container for ansible/shell code validation
+    - Developed Jenkins pipelines for Ansible-based tools, integrated reporting to Webex
     - Streamlined workflows with Jira–GitHub autolinking; configured Jira DVCS
-    - Deployed Renovate-bot for automated dependency updates
-    - Coordinated with InfoSec team to find potential vulnerabilities in Jenkins implementation
+    - Automated dependency updates via Renovate-bot
+    - Created script to automate repetitive changes to similarly structured repos
   ]
 
   #work-heading(
     "Information Security Specialist Intern",
     "Inova",
     "Fairfax, VA",
-    datetime(year:2024, month:6, day:1),
-    datetime(year:2024, month:8, day:1),
+    datetime(year: 2024, month: 6, day: 1),
+    datetime(year: 2024, month: 8, day: 1),
   )[
-    - Initiated automation of SailPoint & TruOps workflows via REST APIs  
-    - Improved production of security reports by implementing automated generation(TruOps, Bitsight, vendor docs)  
-    - Helped restore systems after CrowdStrike outage; supported onboarding (Oracle/AD)  
-    - Improved reporting processes in TruOps
+    - Initiated automation of SailPoint & TruOps workflows via REST APIs
+    - Improved production of security reports by implementing automated generation(TruOps, Bitsight, vendor docs)
+    - Helped restore systems after CrowdStrike outage; supported onboarding (Oracle/AD)
   ]
 
   #work-heading(
     "Data Scientist Intern",
     "Predictive Care",
     "Bethesda, MD",
-    datetime(year:2022, month:12, day:1),
-    datetime(year:2024, month:5, day:1),
+    datetime(year: 2022, month: 12, day: 1),
+    datetime(year: 2024, month: 5, day: 1),
   )[
-    - Led initiative to reduce hallucinations in generative AI  
-    - Automated customer-report database generation (Excel -> Python -> Document)
+    - Led initiative to reduce hallucinations in generative AI
     - Managed multi-user ML workflows on GCP
   ]
 ]
 
 #custom-title("Projects")[
   #skills()[
-  OS Cross Compatibility for Windows App | Strength Training Progression Tracker | VPS for Remote Home Network Access | DLL Compilation for Game Mods | DotNet Executable Compilation | Various Automation Scripts | Packet Capture/Editing | Reverse Engineering Windows Executable | Custom Wiring Pickup Configuration in Guitar | Physical EMMC Write Protection Disabling for Custom Bootloader install
-   ]
+    - *Programming:* OS Cross Compatibility for Windows App | DLL Compilation for Game Mods | DotNet Executable Compilation | Various Automation Scripts via Python (pillow, pyauto)| Reverse Engineering .exe in Ghidra
+    - *Networking:* Self Hosted Encrypted Communications Stack(xmpp, jitsi) | Packet Capture/Editing | Self hosted AI server | Remote access of home network via WireGuard | User whitelisting of hosted sites/services via homebrew router/firewall(pfsense)
+  ]
 ]
 
 #custom-title("Skills")[
